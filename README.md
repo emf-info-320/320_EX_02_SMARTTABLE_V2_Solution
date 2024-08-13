@@ -25,8 +25,39 @@ Les postes de travail pouvant être refaits à tout moment, le travail pouvant �
 > [!WARNING]
 > Il est très important de **prendre le temps de bien lire et de comprendre la documentation initiale** au sujet de ces tableaux dynamiques avant d'aller plus loin, c'est-à-dire **avant de plonger dans les exercices**  !
 
-## 1ère partie - *Découverte des ArrayLists*
-Ex1 - [Découverte](ArrayList/Partie1/README_Ex1_Decouverte.md)
+## *Découverte des ArrayLists*
+Les tableaux dynamiques en Java permettent de gérer des collections d'objets de manière flexible, en facilitant l'ajout, la suppression et la recherche d'éléments. Les principales structures de données dynamiques en Java sont `ArrayList`, `Vector`.
 
-## 2ème partie - *Utilisation concrête des ArrayLists*
-Ex2 - [TableSmart](ArrayList/Partie2/README_Ex2_ListeIntelligente.md)
+## ArrayList
+### Description: 
+Un ArrayList est une collection ordonnée qui permet de stocker des éléments et d'accéder à ceux-ci via des indices (comme un tableau classique), mais avec une taille dynamique.
+### Caractéristiques:
+- Taille dynamique : la taille s'ajuste automatiquement lorsque des éléments sont ajoutés ou supprimés.
+- Accès rapide aux éléments par index.
+- Permet les éléments dupliqués.
+
+```Java
+ArrayList<String> list = new ArrayList<String>();
+list.add("Apple");
+list.add("Banana");
+System.out.println(list.get(0)); // Affiche "Apple"
+```
+
+## Vector
+### Description: 
+Vector est similaire à ArrayList mais est synchronisé, ce qui le rend thread-safe.
+### Caractéristiques:
+- Taille dynamique : la taille s'ajuste automatiquement lorsque des éléments sont ajoutés ou supprimés.
+- Accès rapide aux éléments par index.
+- Permet les éléments dupliqués.
+
+```Java
+Vector<String> vector = new Vector<String>();
+vector.add("Apple");
+vector.add("Banana");
+System.out.println(vector.get(0)); // Affiche "Apple"
+
+```
+
+## *Utilisation concrête des ArrayLists*
+Ex1 - [TableSmart](src/ArrayList/README_SmartTable.md)

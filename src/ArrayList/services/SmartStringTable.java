@@ -1,9 +1,9 @@
-package Ex_ArrayList.Partie2.services;
+package ArrayList.services;
 
 import java.util.ArrayList;
 
 /**
- * Exercice "TableauSmart", reprendre en main les fondamentaux de Java. Cette
+ * Exercice "SmartTable", reprendre en main les fondamentaux de Java. Cette
  * classe représente un "Tableau intelligent
  * de chaînes de caractères" pouvant contenir tant des nulls que des chaînes
  * valides. Ce tableau intelligent se
@@ -11,10 +11,8 @@ import java.util.ArrayList;
  * de telle manière que sa taille
  * correspond toujours au nombre d'éléments qu'il contient effectivement.
  */
-public class ListeStringIntelligente {
-
+public class SmartStringTable {
     public final static int PAS_TROUVEE = -1;
-
     /**
      * La seule structure de données utilisée pour implémenter notre "tableau
      * intelligent".
@@ -26,7 +24,7 @@ public class ListeStringIntelligente {
      * Ce constructeur prépare un tableau
      * vide car pour l'instant il n'y a encore aucun contenu.
      */
-    public ListeStringIntelligente() {
+    public SmartStringTable() {
         valeurs = new ArrayList<String>();
     }
 
@@ -38,7 +36,7 @@ public class ListeStringIntelligente {
      * @param contenuInitial une autre tableau intelligent de chaînes de caractères
      *                       qu'il faut "copier"
      */
-    public ListeStringIntelligente(ListeStringIntelligente contenuInitial) {
+    public SmartStringTable(SmartStringTable contenuInitial) {
         if (contenuInitial != null) {
             // Là on n'a même pas besoin de copier élément par élément, il y a déjà un
             // constructeur qui fait le travail pour nous :-)

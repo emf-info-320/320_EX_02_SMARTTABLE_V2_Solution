@@ -1,5 +1,5 @@
 # Tableau intelligent 2
-[Accueil](../../README.md)
+[Accueil](../../../README.md)
 ## Durée : 30'
 
 ## Objectifs visés
@@ -17,7 +17,7 @@ Découverte des fondamentaux de la classe ArrayList.
 
 Prenez le temps de bien chercher dans les fonctionnalités de cette classe ArrayList, vous verrez qu’elle vous fournit quasiment directement tout ce que vous pourriez souhaiter.
 ## Résultat à obtenir
-Tout comme l'exercice `TableauIntelligent`
+Tout comme l'exercice `SmartTable` précédent
 ```text
 ETAT INITIAL...
 Voici le contenu de notre tableau d'une taille de 6 cellules :
